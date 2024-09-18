@@ -50,7 +50,7 @@ public class WeatherAPI {
 
         String wet = getCityName(blockOfText) + getTemp(blockOfText) + getDescription(blockOfText) + getWindSpeed(blockOfText);
         return wet;
-        //TODO
+        
 
     }
 
