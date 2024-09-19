@@ -48,7 +48,7 @@ public class WeatherAPI {
     // Function to get, format, and return weather data
     public String parseWeatherData(String blockOfText) {
 
-        String wet = getCityName(blockOfText) + getTemp(blockOfText) + getDescription(blockOfText) + getWindSpeed(blockOfText);
+        String wet = getCityName(blockOfText) + "\n"+ getTemp(blockOfText)+ " F" + "\n" + getDescription(blockOfText) +"\n"+ getWindSpeed(blockOfText) +" mph";
         return wet;
         
 
